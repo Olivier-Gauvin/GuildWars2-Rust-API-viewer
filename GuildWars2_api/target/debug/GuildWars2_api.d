@@ -1,0 +1,1 @@
+C:\Users\Olivi\RustroverProjects\GuildWars2-Rust-React-API-viewer\GuildWars2_api\target\debug\GuildWars2_api.exe: C:\Users\Olivi\RustroverProjects\GuildWars2-Rust-React-API-viewer\GuildWars2_api\src\main.rs

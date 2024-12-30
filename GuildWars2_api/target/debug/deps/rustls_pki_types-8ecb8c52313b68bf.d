@@ -1,0 +1,10 @@
+C:\Users\Olivi\RustroverProjects\GuildWars2-Rust-React-API-viewer\GuildWars2_api\target\debug\deps\librustls_pki_types-8ecb8c52313b68bf.rmeta: C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src/lib.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\base64.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\server_name.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\pem.rs
+
+C:\Users\Olivi\RustroverProjects\GuildWars2-Rust-React-API-viewer\GuildWars2_api\target\debug\deps\librustls_pki_types-8ecb8c52313b68bf.rlib: C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src/lib.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\base64.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\server_name.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\pem.rs
+
+C:\Users\Olivi\RustroverProjects\GuildWars2-Rust-React-API-viewer\GuildWars2_api\target\debug\deps\rustls_pki_types-8ecb8c52313b68bf.d: C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src/lib.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\base64.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\server_name.rs C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\pem.rs
+
+C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src/lib.rs:
+C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\base64.rs:
+C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\server_name.rs:
+C:\Users\Olivi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rustls-pki-types-1.10.1\src\pem.rs:
