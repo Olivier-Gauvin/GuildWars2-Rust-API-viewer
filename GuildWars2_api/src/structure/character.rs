@@ -45,11 +45,11 @@ pub struct Equipment {
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct EquipmentTab{
-    tab: u8,
-    name: String,
-    is_active: bool,
-    equipment: Vec<Equipment>,
-    equipment_pvp: EquipmentPvP,
+    pub tab: u8,
+    pub name: String,
+    pub is_active: bool,
+    pub equipment: Vec<Equipment>,
+    pub equipment_pvp: EquipmentPvP,
 }
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Bag {
@@ -74,160 +74,160 @@ pub struct Inventory {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Items{
-    id: u32,
-    chat_link: String,
-    name: String,
-    icon: Option<String>,
-    description: Option<String>,
+    pub id: u32,
+    pub chat_link: String,
+    pub name: String,
+    pub icon: Option<String>,
+    pub description: Option<String>,
     #[serde(rename = "type")]
-    types: String,
-    rarity: String,
-    level: u8,
-    vendor_value: u32,
-    default_skin: Option<u32>,
-    flags: String,
-    game_types: Vec<String>,
-    restrictions: Vec<String>,
-    upgrades_into : Option<Vec<Upgrades>>,
-    upgrades_from: Option<Vec<Upgrades>>,
-    details: Option<Vec<Value>>,
+    pub types: String,
+    pub rarity: String,
+    pub level: u8,
+    pub vendor_value: u32,
+    pub default_skin: Option<u32>,
+    pub flags: String,
+    pub game_types: Vec<String>,
+    pub restrictions: Vec<String>,
+    pub upgrades_into : Option<Vec<Upgrades>>,
+    pub upgrades_from: Option<Vec<Upgrades>>,
+    pub details: Option<Vec<Value>>,
 
 }
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct BuildTab{
-    tab: u8,
-    is_active: bool,
-    build: Build,
+    pub tab: u8,
+    pub is_active: bool,
+    pub build: Build,
 
 }
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct Build{
-    name: String,
-    profession: String,
-    specializations: Vec<Specializations>,
-    skills: Skills,
-    aquatic_skills: AquaticSkills,
-    legends: Option<Vec<String>>,
-    aquatic_legends: Option<Vec<String>>,
-    pets: Option<Pet>
+    pub name: String,
+    pub profession: String,
+    pub specializations: Vec<Specializations>,
+    pub skills: Skills,
+    pub aquatic_skills: AquaticSkills,
+    pub legends: Option<Vec<String>>,
+    pub aquatic_legends: Option<Vec<String>>,
+    pub pets: Option<Pet>
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct Specializations{
-    pve: Vec<PvESpecialization>,
-    pvp: Vec<PvPSpecialization>,
-    wvw: Vec<WvWSpecialization>
+    pub pve: Vec<PvESpecialization>,
+    pub pvp: Vec<PvPSpecialization>,
+    pub wvw: Vec<WvWSpecialization>
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct PvESpecialization{
-    id: u16,
-    traits: Vec<u32>
+    pub id: u16,
+    pub traits: Vec<u32>
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct PvPSpecialization{
-    id: u16,
-    traits: Vec<u32>
+    pub id: u16,
+    pub traits: Vec<u32>
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct WvWSpecialization{
-    id: u16,
-    traits: Vec<u32>
+    pub id: u16,
+    pub traits: Vec<u32>
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct Skills{
-    pve: PvESkills,
-    pvp: PvPSkills,
-    wvw: WvWSkills,
+    pub pve: PvESkills,
+    pub pvp: PvPSkills,
+    pub wvw: WvWSkills,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct AquaticSkills{
-    pve: PvESkills,
-    pvp: PvPSkills,
-    wvw: WvWSkills,
+    pub pve: PvESkills,
+    pub pvp: PvPSkills,
+    pub wvw: WvWSkills,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct PvESkills{
-    heal: u32,
-    utilities: Vec<u32>,
-    elite: u32,
-    legends: Vec<String>,
+    pub heal: u32,
+    pub utilities: Vec<u32>,
+    pub elite: u32,
+    pub legends: Vec<String>,
 }
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct PvPSkills{
-    heal: u32,
-    utilities: Vec<u32>,
-    elite: u32,
-    legends: Vec<String>,
+    pub heal: u32,
+    pub utilities: Vec<u32>,
+    pub elite: u32,
+    pub legends: Vec<String>,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct WvWSkills{
-    heal: u32,
-    utilities: Vec<u32>,
-    elite: u32,
-    legends: Vec<String>,
+    pub heal: u32,
+    pub utilities: Vec<u32>,
+    pub elite: u32,
+    pub legends: Vec<String>,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct Pet{
-    id: Option<u16>,
-    name: Option<String>,
-    description: Option<String>,
-    icon: Option<String>,
-    skills: PetSkill,
+    pub id: Option<u16>,
+    pub name: Option<String>,
+    pub description: Option<String>,
+    pub icon: Option<String>,
+    pub skills: PetSkill,
 }
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct PetSkill{
-    id: u16,
+    pub id: u16,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct EquipmentPvP{
-    amulet: u16,
-    rune: u16,
-    sigils: Vec<u16>
+    pub amulet: u16,
+    pub rune: u16,
+    pub sigils: Vec<u16>
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Training{
-    id: u16,
-    spent: u32,
-    done: bool,
+    pub id: u16,
+    pub spent: u32,
+    pub done: bool,
 }
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Infusions{
-    id: u32,
-    flags: Vec<String>,
+    pub id: u32,
+    pub flags: Vec<String>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Upgrades{
     #[serde(rename = "type")]
-    types: String,
-    flag: Vec<String>,
-    infusion_upgrade_flags: Vec<String>,
-    suffix: String,
-    infix_upgrade: Option<InfixUpgrade>,
-    bonuses: Option<Vec<String>>,
+    pub types: String,
+    pub flag: Vec<String>,
+    pub infusion_upgrade_flags: Vec<String>,
+    pub suffix: String,
+    pub infix_upgrade: Option<InfixUpgrade>,
+    pub bonuses: Option<Vec<String>>,
 }
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct InfixUpgrade{
-    id: u32,
-    attributes: Vec<Option<String>>,
-    modifier: u32,
-    buff: Option<Buff>,
+    pub id: u32,
+    pub attributes: Vec<Option<String>>,
+    pub modifier: u32,
+    pub buff: Option<Buff>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Buff{
-    skill_id: u32,
-    description: Option<String>
+    pub skill_id: u32,
+    pub description: Option<String>
 }
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ItemStats{
@@ -240,8 +240,8 @@ pub struct ItemStats{
 
 #[derive(Default, PartialEq, Debug, Clone, Serialize, Deserialize)]
 pub struct Stats{
-    id: u16,
-    attributes: Attributes
+    pub id: u16,
+    pub attributes: Attributes
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -296,6 +296,6 @@ pub struct Attributes {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Recipes{
-    recipes: Option<Vec<u32>>,
+    pub recipes: Option<Vec<u32>>,
 }
 

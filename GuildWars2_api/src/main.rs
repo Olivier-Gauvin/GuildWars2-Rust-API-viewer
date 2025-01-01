@@ -49,18 +49,32 @@ pub async fn get_character_info(character_name: &String, access_token: &str) -> 
     Ok(content)
 }
 
-pub async fn parse_character_info(character: String, access_token: &str)-> Result<()>{
+pub async fn parse_character_info(character: String, access_token: &str)-> Option<Character>{
     let character_info = get_character_info(&character, &access_token).await.unwrap();
     //println!("Raw JSON: {}\n", &character_info);
-
-    // Attempt to parse it into the updated Character struct
     match serde_json::from_str::<Character>(&character_info) {
-        Ok(parsed_character) => println!("{:?}", parsed_character),
+        Ok(parsed_character) => { let parsed_character =  parsed_character;
+            println!("{:?} has been parsed\n", character);
+            Some(parsed_character)
+        },
         Err(err) => {
             eprintln!("Failed to parse character info: {}\n", err);
+            None
         }
     }
-    Ok(())
+}
+
+pub async fn get_list_of_parsed_character_info(list_of_character: Vec<String>, access_token: &str)-> Vec<Character>{
+    let mut i = 0;
+    let mut character_info_list: Vec<Character> = vec![];
+    for character in list_of_character {
+        println!("{}", character);
+        character_info_list.push(parse_character_info(character, &access_token).await.unwrap());
+        println!("this is from the struct: {:?}\n-------------------------------------------------\n\n",
+                 character_info_list[i].name);
+        i += 1;
+    }character_info_list
+
 }
 
 pub async fn get_item_stats()-> String{
@@ -92,16 +106,12 @@ async fn main() -> Result<()> {
     //let item_stats = string_parser(&get_item_stats().await);
     let access_token = get_access_token().await;
     let list_of_character = get_characters(&access_token).await.unwrap();
+    let _list_of_parsed_character = get_list_of_parsed_character_info(list_of_character, &access_token).await;
 
     //for item in item_stats{
     //    println!("{}", item);
     //    parse_item_info(item).await?;
     //}
-
-    for character in list_of_character{
-        println!("{}", character);
-        parse_character_info(character, &access_token).await?;
-    }
 
 
 
