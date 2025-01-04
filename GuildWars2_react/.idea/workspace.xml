@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_slideshow.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
+        <config>
+          <theme>@style/Theme.Guildwars2_react</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="242255b1-caea-44bd-8cde-d61fe5b3a54a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/src/structure/character.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/src/structure/character.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/GuildWars2_api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/target/debug/GuildWars2_api.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/GuildWars2_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/target/debug/GuildWars2_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/deps/GuildWars2_api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/target/debug/deps/GuildWars2_api.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/deps/GuildWars2_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../GuildWars2_api/target/debug/deps/GuildWars2_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/02ozl03c79xax2j4ln4fqy86z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/04xwtbaoyf1h5w1bqw2q6tm4g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/05twhla9p148nvea5321t67dh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/0eka0a7sn1me40mne0j4hrqi0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/0eqc6p9saqumebca6qbvwn9vh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/0m8c604gsvw2y7m0e946gzuhm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/15yeqbxv0p6iwqvjvictfksbx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/1jpjr7ghq4pavic6ta7jo6h6r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/1rstb1jbgaiygx1jalwf9w76r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/1s5vj61m18kco046ujzb80uo7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/23pnpoxnort0q7ialvxrwplls.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2amwageh8mvyzl2gxy9av53md.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2d303sr56t65lt2a8904lmpaa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2ioglamil3wnpx8vpa2sc795z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2j02lg9sjrmt7l8hktxgd49xc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2lspw2i75r7rv6kjte079layc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2x7s8q7xqw6to526ta1ifno6g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/2zx68kkthv3jfimodj8y83c3i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/30ys3soiyilmbxpegjlimuwf8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/32d54g2ofrskhmbplhynvqocg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3498dt6o3za33tgm6wyszzzzg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/39f1w266oa0pps6a53a905l9n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3a4nobtwgo11oyf9pqcf0qca4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3ccd8bxqg8n1dgphxcadcv68k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3nl95b2n7z6suxhv618gop53r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3pyamslz9dmizubg8lsjfd5zl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/3z1ievmizzfpa2q7vhsn9elff.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/4hibvvlnj5ephu9i8v5wadakx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/4ifp4ft5sata986invfnwphq8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/4j0epn6k6myj7farw6p5q6paj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/50zrsr6jaxjfsb9mqy38px3b9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/5797rs10c7m8uz0armh3upixp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/5r2v8tfg2r7vur1987sumjvy9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/5wym98rjelz9c87tg1bwktch6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/5xgqn4ej62zbtzplwocmleidz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/66yf7x5ii37898qfcgmn53nzk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/693fxh94ae59kcc4z5l6g81v4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/6texeantayeytboq9ps1dr43f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/6tvrhcjdrnsn6fcydfp4cw1r5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/6vum5xpnxrz97nsuwrwcwctvh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/73nb0nnqpjenyydogce2e2wgo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/752f5hn73hwfny9oo6dp7yezi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/7wrtla1mjemk4x0swpluq4n2x.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8f0xopvl0fvsn78vfekt6n5oi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8o9txxcq87eu731p7o51jsayd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8oj3ezd59ycqwr1zgfrb7a6s8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8p1i2ffhp966ym1f40jtmnm3u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8qcrjkrr460jault7yj8kplvc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/8uogtcnhydu7jl3z725s53exw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/93h9uadbhf8njfhccbwy87j3d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/95bvqo7l46i6vpwjio8hqqh1s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/97uz7b84r1nzxpt4jbun84a0e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/98ptmlnkna7xm3eggte5fud9o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/99q8mhsec6ojhcb7oxqzbjmyr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/9eaeznrx1rmcgmumnksq4e19b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/9nybs8jndpmo98qoixzejk5vq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/ab7z0ey2j16xcgnjdf012m94i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/ahpshjh7t5t0572o1f8folrsm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/aiwmn7mfepzcwuyym7cvbb64v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/ao9gmi7q34js9impyxt640w41.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/atribm81eamkk1mu80mx4gka1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/b8ckje8dct5qrzuxiqfkieqhp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/b8hvo5zzmx6hppa8w6wlir2kl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/barje3mqt0yxb88xjm7ni6tvi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/bghrw34qx3yeauk13gqwkbhn4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/bz8dcb7xy3tcmrkgn5gu8t6le.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/c946nb7fheyfnsd9f45o2a3v5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/cn0ahxz86pjjqptuexwa197oz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/cofisyszh4yhx2cyqphbojgek.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/cpkweudm93v4e8gu5tct324cb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/ctjanis5oce7vdfqmrlqt6iwu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/ctzygq7527adnry1o2rdiscz5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/d07wsall200la65ehs7nx0azv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/d6fesmjxl35clk7slo5pvvo6k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/d6stcc9isgnus1jartczu0dz3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/da662xynrd41oh86l2o71s3v7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dduky61hi2h7iwr51tos9gq2g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dg4gzxfzb7kfcrnbr7ijgv465.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dgbkxvzl2chj35469ndyyhs7s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dgilm308vfqcf0jflqvaiye15.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dgtorj1ta1chlh3ub5eshvwio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dv6mmcg7xwah8r3ztxugr8w3n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/dwgzg0hb6l2gfhdxfth0uzjwn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/e17vrza7mk476pay7dgri61az.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/e4l0xr5vl12wxz0qvbqf0k6eh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/e5h7nrhb5c8dxifrmf4t8zwrm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/egzfmcxdmo660zkpzqdaksut5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/eyjiqrshciv307jsnyingu9u4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1-dpwaguayuuuuv956laoec2tp3/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuildWars2_api/target/debug/incremental/GuildWars2_api-1c3s6yde718q2/s-h39pmw6lt1-18yp0v1.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Olivi\.android\avd\Pixel_8_API_35.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Olivier-Gauvin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Olivier-Gauvin/GuildWars2-Rust-React-API-viewer&quot;,
+    &quot;accountId&quot;: &quot;a2c18dee-a800-4b40-983e-7f599990761a&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2r5wOwLmwZJzOZjs6XY6WMgMBf2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ResourceManagerPrefKey.ResourceType&quot;: &quot;DRAWABLE&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;React__app__basic__UI&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Guildwars2_react.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="242255b1-caea-44bd-8cde-d61fe5b3a54a" name="Changes" comment="" />
+      <created>1735862215591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735862215591</updated>
+    </task>
+    <servers />
+  </component>
+</project>

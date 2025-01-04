@@ -12,7 +12,7 @@ pub struct Character{
     pub level: u8,
     pub guild: Option<String>,
     pub age: u64,
-    //pub last_modified: String,
+    pub last_modified: Option<String>,
     pub created: String,
     pub deaths: u64,
     pub title: Option<u16>,
@@ -23,7 +23,7 @@ pub struct Character{
     pub recipes: Vec<u32>,
     pub training: Vec<Value>,
     pub bags: Option<Vec<Option<Bag>>>,
-    //pub build_tabs: Vec<BuildTab>,
+    pub build_tabs: Option<Vec<BuildTab>>,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
