@@ -5,8 +5,15 @@ use reqwest::ClientBuilder;
 use std::fs;
 pub mod structure{
     pub mod character;
+    pub mod account;
 }
 use crate::structure::character::*;
+use crate::structure::account::*;
+
+pub mod api_match_call{
+    pub mod match_call_functions;
+}
+use crate::api_match_call::*;
 
 pub async fn get_api(resource: &str) -> Result<String>{
     let request_url =format!( "https://api.guildwars2.com/v2/{}",resource);
@@ -87,12 +94,12 @@ pub async fn get_item_info(item_id: &String)-> Result<String>{
     Ok(content)
 }
 
-pub async fn parse_item_info(item: String)-> Result<()>{
+pub async fn parse_item_info(item: &String)-> Result<()>{
     let item_info = get_item_info(&item).await.unwrap();
-    println!("Raw JSON: {}\n", &item_info);
+    //println!("Raw JSON: {}\n", &item_info);
 
-    match serde_json::from_str::<Items>(&item_info) {
-        Ok(parse_item) => println!("{:?}", parse_item),
+    match serde_json::from_str::<ItemStats>(&item_info) {
+        Ok(parse_item) => println!("Item Stats: {:?}\n", &parse_item),
         Err(err) => {
             eprintln!("Failed to parse character info: {}\n", err);
         }
@@ -101,20 +108,23 @@ pub async fn parse_item_info(item: String)-> Result<()>{
 }
 
 
+
+
 #[tokio::main]
 async fn main() -> Result<()> {
-    //let item_stats = string_parser(&get_item_stats().await);
     let access_token = get_access_token().await;
-    let list_of_character = get_characters(&access_token).await.unwrap();
-    let _list_of_parsed_character = get_list_of_parsed_character_info(list_of_character, &access_token).await;
+    //let list_item_ids = string_parser(&get_item_stats().await);
+    //let list_of_character = get_characters(&access_token).await.unwrap();
+    //let _list_of_parsed_character = get_list_of_parsed_character_info(list_of_character, &access_token).await;
 
-    //for item in item_stats{
-    //    println!("{}", item);
+    let input = AccountCall::LegendaryArmory;
+    let test = match_call_functions::match_account_api_call(&input, &access_token).await?;
+    println!("Test info: {}\n", test);
+
+    //for item in &list_item_ids{
+    //    println!("Item: {}\n", &item);
     //    parse_item_info(item).await?;
     //}
-
-
-
 
 
     Ok(())
