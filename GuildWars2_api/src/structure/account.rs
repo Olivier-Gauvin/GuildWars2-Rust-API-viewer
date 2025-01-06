@@ -1,6 +1,11 @@
 use serde::{Serialize, Deserialize};
 use serde_json::Value;
 use crate::structure::character::*;
+use serde::de::DeserializeOwned;
+
+pub trait Serializable: DeserializeOwned + Send {}
+
+impl Serializable for Achievement {}
 
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]

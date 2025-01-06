@@ -232,8 +232,8 @@ pub struct Buff{
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ItemStats{
     pub id: u32,
-    pub name: Option<String>,
-    pub attributes: Vec<Option<Attributes2>>,
+    pub name: String,
+    pub attributes: Vec<Attributes2>,
     pub multiplier: Option<f32>,
     pub value: Option<f32>,
 }

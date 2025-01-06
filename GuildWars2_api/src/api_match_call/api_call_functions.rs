@@ -12,7 +12,7 @@ pub async fn api_call<Endpoint: EndpointProvider>(
 
     // Construct the base resource URL
     let resource = match ids {
-        Some(ids) => format!("{endpoint}/{ids}?access_token={access_token}"),
+        Some(ids) => format!("{endpoint}?ids={ids}"),
         None => format!("{endpoint}?access_token={access_token}"),
     };
 
