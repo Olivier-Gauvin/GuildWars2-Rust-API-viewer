@@ -232,8 +232,8 @@ pub struct Buff{
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ItemStats{
     pub id: u32,
-    pub name: Option<String>,
-    pub attributes: Attributes,
+    pub name: String,
+    pub attributes: Vec<Attributes2>,
     pub multiplier: Option<f32>,
     pub value: Option<f32>,
 }
@@ -256,7 +256,6 @@ pub struct WvWAbilities {
     pub id: u16,
     pub rank: u32,
 }
-
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -292,6 +291,13 @@ pub struct Attributes {
     pub boon_duration: Option<u16>,
     #[serde(rename = "Armor")]
     pub armor: Option<u16>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct Attributes2 {
+    pub attribute: String,
+    pub multiplier: f32,
+    pub value: u16,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
