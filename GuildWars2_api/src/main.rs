@@ -8,16 +8,19 @@ pub mod structure{
     pub mod account;
 }
 use crate::structure::character::*;
-use crate::structure::account::*;
+//use crate::structure::account::*;
 
 pub mod api_match_call{
-    pub mod match_call_functions;
+    pub mod api_call_functions;
+    pub mod api_call_enums;
 }
 use crate::api_match_call::*;
+use crate::api_match_call::api_call_enums::AccountCall;
+use crate::api_match_call::api_call_functions::api_call;
 
 pub async fn get_api(resource: &str) -> Result<String>{
     let request_url =format!( "https://api.guildwars2.com/v2/{}",resource);
-    println!("{}\n", request_url);
+    println!("Requested Url:\n{request_url}\n");
 
     let timeout = Duration::new(10, 0);
     let client = ClientBuilder::new().timeout(timeout).build()?;
@@ -30,9 +33,8 @@ pub async fn get_access_token() -> String {
     fs::read_to_string("C:/Users/Olivi/RustroverProjects/access_token.txt").expect("file not read!")
 }
 
-pub async fn get_characters(access_token: &str) -> Result<Vec<String>> {
-    let resource = format!("characters/?access_token={}", access_token);
-    let content = get_api(&resource).await?;
+pub async fn get_list_of_characters(access_token: &str) -> Result<Vec<String>> {
+    let content = api_call(&AccountCall::Characters, &access_token, None).await?;
     let character_list = string_parser(&content);
 
     Ok(character_list)
@@ -77,7 +79,7 @@ pub async fn get_list_of_parsed_character_info(list_of_character: Vec<String>, a
     for character in list_of_character {
         println!("{}", character);
         character_info_list.push(parse_character_info(character, &access_token).await.unwrap());
-        println!("this is from the struct: {:?}\n-------------------------------------------------\n\n",
+        println!("this is from the Character structure: {:?}\n-------------------------------------------------\n\n",
                  character_info_list[i].name);
         i += 1;
     }character_info_list
@@ -113,14 +115,21 @@ pub async fn parse_item_info(item: &String)-> Result<()>{
 #[tokio::main]
 async fn main() -> Result<()> {
     let access_token = get_access_token().await;
+
+
+    let list_of_character = get_list_of_characters(&access_token).await?;
+    let list_of_parsed_character = get_list_of_parsed_character_info(
+        list_of_character, &access_token).await;
+    println!("List of characters: {:?}\n", &list_of_parsed_character);
+
+
+    let ids = Some("2");
+    let input2 = api_call_enums::WvW::Abilities;
+    let test2 = api_call(&input2, &access_token,ids).await?;
+    println!("Test info:\n {}\n", test2);
+
+
     //let list_item_ids = string_parser(&get_item_stats().await);
-    //let list_of_character = get_characters(&access_token).await.unwrap();
-    //let _list_of_parsed_character = get_list_of_parsed_character_info(list_of_character, &access_token).await;
-
-    let input = AccountCall::LegendaryArmory;
-    let test = match_call_functions::match_account_api_call(&input, &access_token).await?;
-    println!("Test info: {}\n", test);
-
     //for item in &list_item_ids{
     //    println!("Item: {}\n", &item);
     //    parse_item_info(item).await?;

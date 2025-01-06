@@ -1,50 +1,7 @@
 use serde::{Serialize, Deserialize};
 use serde_json::Value;
-use crate::structure::account;
 use crate::structure::character::*;
 
-pub enum AccountCall{
-    Account,
-    Achievements,
-    Bank,
-    DailyCrafting,
-    Dungeons,
-    Dyes,
-    Finishers,
-    Gliders,
-    Cats,
-    Nodes,
-    Decorations,
-    Glyphs,
-    //shared inventory space
-    Inventory,
-    Jadebots,
-    Luck,
-    LegendaryArmory,
-    MailCarriers,
-    MapChests,
-    Masteries,
-    MasteryPoints,
-    Materials,
-    Minis,
-    MountsSkins,
-    MountsTypes,
-    Novelties,
-    Outfits,
-    Progression,
-    PvPHeroes,
-    Raids,
-    Recipes,
-    Skiff,
-    Skins,
-    Titles,
-    Wallet,
-    WizardsvaultDaily,
-    WizardsvaultListings,
-    WizardsvaultSpecial,
-    WizardsVaultWeekly,
-    WorldBosses,
-}
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 pub struct Account{
@@ -63,7 +20,7 @@ pub struct Account{
     pub homesteads_decorations: Option<Vec<Decorations>>,
     #[serde(rename = "homesteads/cats")]
     pub homesteads_glyphs: Option<Vec<String>>,
-    pub inventory: Option<Vec<account::ItemSlot>>,
+    pub inventory: Option<Vec<ItemSlot>>,
     pub jadebots: Option<Vec<Option<u32>>>,
     pub luck: Vec<Option<Luck>>,
     pub legendaryarmory: Option<Vec<LegendaryArmor>>,
