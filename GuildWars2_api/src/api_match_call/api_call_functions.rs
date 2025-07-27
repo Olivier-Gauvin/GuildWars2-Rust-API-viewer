@@ -4,13 +4,9 @@ use crate::api_call_enums::*;
 
 
 pub async fn api_call<Endpoint: EndpointProvider>(
-    input: &Endpoint,
-    access_token: &str,
-    ids: Option<&str>,
-) -> Result<String> {
-    let endpoint = input.get_endpoint();
+    input: &Endpoint, access_token: &str, ids: Option<&str>, ) -> Result<String> {
 
-    // Construct the base resource URL
+    let endpoint = input.get_endpoint();
     let resource = match ids {
         Some(ids) => format!("{endpoint}?ids={ids}"),
         None => format!("{endpoint}?access_token={access_token}"),
@@ -19,7 +15,7 @@ pub async fn api_call<Endpoint: EndpointProvider>(
     get_api(&resource).await
 }
 
-// A trait to define how enums provide their endpoints
+// The trait to define how enums provide their endpoints
 pub trait EndpointProvider {
     fn get_endpoint(&self) -> &'static str;
 }
