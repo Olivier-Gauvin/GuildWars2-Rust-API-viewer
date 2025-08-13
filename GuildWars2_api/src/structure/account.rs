@@ -172,7 +172,7 @@ pub struct GuildInfo{
     id: String,
     name: String,
     tag: String,
-    emblem: Vec<Emblem>,
+    pub(crate) emblem: Vec<Emblem>,
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]

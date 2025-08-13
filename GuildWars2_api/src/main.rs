@@ -2,9 +2,11 @@ use tokio::fs::read_to_string;
 use crate::api::*;
 use crate::api::api_call::*;
 use crate::api::api_enums::*;
+use crate::api::api_enums::AccountCall::Characters;
 use crate::api::api_enums::Items::ItemStats;
 use crate::api::string_parser::*;
-use crate::structure::character;
+use crate::structure::{account, character};
+use crate::structure::account::GuildInfo;
 
 pub mod structure{
     pub mod character;
@@ -31,22 +33,27 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let list_of_character = get_list_of_character(&access_token).await?;
     let character = parse_character_info("Lockonstrat".to_string(), &access_token).await.unwrap();
-    let list_of_parsed_character = get_list_of_parsed_character_info(
-       list_of_character, &access_token).await;
+    let list_of_parsed_character = get_list_of_parsed_character_info
+        (list_of_character, &access_token).await;
+
+
     let guild_id = character.guild.as_deref();
     let guild_info = get_guild_info(&access_token, guild_id);
+    let ser_guild_info = serialize_info::<_, GuildInfo>
+        (Some(guild_id.unwrap()), Characters, &access_token).await;
 
     println!("List of characters: {:?}\n", list_of_parsed_character);
     //println!("List of characters: {:?}\n", character);
     println!("guild info: {:?}\n", guild_info.await?);
+    println!("serialised guild info: {:?}\n", ser_guild_info);
 
 
-    let ids_vec = Some(string_parser(&api_call(&Items::Skins, &access_token, None).await?));
-    for ids in ids_vec.unwrap() {
-        let input2 = Items::Skins;
-        let test2 = api_call(&input2, &access_token,Some(&ids)).await?;
-        println!("Test info:\n {}\n", test2);
-    }
+    //let ids_vec = Some(string_parser(&api_call(&Items::Skins, &access_token, None).await?));
+    //for ids in ids_vec.unwrap() {
+    //    let input2 = Items::Skins;
+    //     let test2 = api_call(&input2, &access_token,Some(&ids)).await?;
+    //    println!("Test info:\n {}\n", test2);
+    //}
 
 
     //let bank_items = string_parser(
