@@ -4,8 +4,7 @@ use crate::structure::character::*;
 use serde::de::DeserializeOwned;
 
 pub trait Serializable: DeserializeOwned + Send {}
-
-impl Serializable for Achievement {}
+impl<T> Serializable for T where T: DeserializeOwned + Send {}
 
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
@@ -160,4 +159,37 @@ pub struct Progression{
 pub struct Currency{
     id: u16,
     value: u32,
+}
+
+#[derive(Default, Debug, Clone, Serialize, Deserialize)]
+pub struct GuildInfo{
+    level : u16,
+    motd : String,
+    influence : u32,
+    aetherium : u16,
+    resonance : u16,
+    favor : u16,
+    id: String,
+    name: String,
+    tag: String,
+    emblem: Vec<Emblem>,
+}
+
+#[derive(Default, Debug, Clone, Serialize, Deserialize)]
+pub struct Emblem{
+    background_color: Vec<BackgroundColor>,
+    foreground_color: Vec<ForegroundColor>,
+    flags: Vec<String>,
+}
+
+#[derive(Default, Debug, Clone, Serialize, Deserialize)]
+pub struct BackgroundColor{
+    id: u16,
+    colors: Vec<u16>,
+}
+
+#[derive(Default, Debug, Clone, Serialize, Deserialize)]
+pub struct ForegroundColor{
+    id: u16,
+    colors: Vec<u16>,
 }

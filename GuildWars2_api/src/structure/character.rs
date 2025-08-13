@@ -1,9 +1,7 @@
-use serde::{Serialize, Deserialize};
+use serde::Serialize;
+use serde::Deserialize;
 use serde_json::Value;
-use serde::de::DeserializeOwned;
-use crate::structure::account::Serializable;
 
-impl Serializable for ItemStats {}
 
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
@@ -238,8 +236,8 @@ pub struct ItemStats{
     pub id: u16,
     pub name: String,
     pub attributes: Vec<Attributes2>,
-    //pub multiplier: Option<f32>,
-    //pub value: Option<f32>,
+    pub multiplier: Option<f32>,
+    pub value: Option<f32>,
 }
 
 #[derive(Default, PartialEq, Debug, Clone, Serialize, Deserialize)]
@@ -308,4 +306,3 @@ pub struct Attributes2 {
 pub struct Recipes{
     pub recipes: Option<Vec<u32>>,
 }
-
